@@ -15,7 +15,7 @@ public class AdminPersona {
   }
 
   public static char ingresarSexo(Scanner scSexo) {
-    System.out.print("Ingrese sexo: ");
+    System.out.print("Ingrese sexo ( H | M ): ");
     return scSexo.next().charAt(0);
   }
 

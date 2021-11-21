@@ -2,7 +2,7 @@ package Ejercicio_18;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
+
 
 public class AdminSistema {
   public static void main(String[] args) {
@@ -40,7 +40,7 @@ public class AdminSistema {
         videojuego.devolver();
       }
     }
-    System.out.println("\n----ENTREGADOS----");
+    System.out.println("\n-------------------ENTREGADOS----------------------");
     System.out.println("El numero de series entregadas es: " + contadorSeries);
     System.out.println("El numero de videojuegos entregados es: " + contadorVideojuegos);
 
